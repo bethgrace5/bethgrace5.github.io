@@ -1,0 +1,6 @@
+/app/lib/bower_components
+
+*.DS_Store
+*.swp
+*.jar
+*.swo
