@@ -37,6 +37,11 @@
 				);
 			});
 
+      skel.on("ready", function() {
+          //alert("DOM is ready!");
+      });
+
+
 		// CSS polyfills (IE<9).
 			if (skel.vars.IEVersion < 9)
 				$(':last-child').addClass('last-child');
